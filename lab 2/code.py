@@ -1,7 +1,6 @@
 import csv
 
 a = []
-
 with open('enjoysport.csv', 'r') as csvfile:
     for row in csv.reader(csvfile):
         a.append(row)
