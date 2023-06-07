@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv(r"C:\Users\STUDENT\Desktop\salary_Data.csv")
+df = pd.read_csv('/kaggle/input/salary-datacsv/Salary_Data.csv')
 df.head()
 df.shape
 X = df['YearsExperience'].values.reshape(-1, 1)
